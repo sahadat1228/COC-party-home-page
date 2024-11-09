@@ -224,10 +224,10 @@ section{
     .navlist{
         position: absolute;
         top: 100%;
-        right: -100%;
+        right: -80%;
         width: 200px;
-        height: 30vh;
-        background: none;
+        height: 45vh;
+        background-color: #9a1fed;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -253,5 +253,8 @@ section{
     }
     .hero-text h1{
         word-wrap: break-word;
+    }
+    header{
+        background-color: #9a1fed;
     }
 }
